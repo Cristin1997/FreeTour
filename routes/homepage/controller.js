@@ -10,3 +10,8 @@ exports.renderIndex = async (ctx, next) => {
     //     title: 'Hello Koa 2!',
     // })
 }
+
+
+exports.getAllLine = async (ctx, next) => {
+    ctx.body ='这是所有路线的列表'
+}

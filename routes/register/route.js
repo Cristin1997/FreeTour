@@ -1,8 +1,6 @@
 const router = require('koa-router')()
 const controller = require('./controller.js')
 
-router.get('/', controller.renderIndex)
-
-router.get('/homepage/allLine',controller.getAllLine)
+router.get('/register', controller.renderIndex)
 
 module.exports = router
